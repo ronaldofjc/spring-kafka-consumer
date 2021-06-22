@@ -19,7 +19,7 @@ Producer project: ([Link](https://github.com/ronaldofjc/spring-kafka-producer))
 ## Swagger
 - The generated swagger html page is available in the following address
 ```
-    http://localhost:8080/swagger-ui.html
+    http://localhost:8081/swagger-ui.html
 ```
 
 ## Application Commands
