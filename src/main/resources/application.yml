@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  kafka:
+    max:
+      poll:
+        interval:
+          ms: 30000
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: consumer_group1
+      auto-offset-reset: earliest
+      enable-auto-commit: false
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: br.com.kafka.consumer.utils.MessageDeserializer
+    listener:
+      ack-mode: manual
