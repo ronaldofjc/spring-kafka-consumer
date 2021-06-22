@@ -16,12 +16,6 @@ Producer project: ([Link](https://github.com/ronaldofjc/spring-kafka-producer))
 - Use docker-compose of project spring-kafka-producer
 
 
-## Swagger
-- The generated swagger html page is available in the following address
-```
-    http://localhost:8081/swagger-ui.html
-```
-
 ## Application Commands
 
 - Compile project
